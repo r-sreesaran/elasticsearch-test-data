@@ -128,6 +128,9 @@ def get_data_for_format(format):
         for _ in range(count):
             words.append(""+random.choice(text))
         return_val = " ".join(words)
+     
+    else:
+	    return_val=field_type   
 
     return field_name, return_val
 
